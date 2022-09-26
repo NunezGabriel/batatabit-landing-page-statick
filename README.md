@@ -8,6 +8,6 @@ etc.</p>
 <p>en este protyecto lo que vamos a hacer es la landing page statick como inicio de este sitio web usando 
 html y css enfocandonos mas que todo en el concepto de RESPONSIVE DESIGN como practica del tema anteriormente mensionado</p>
 
-<p aling="center">
+<p align="center">
     <img src="https://castellocoin.com/icons/coin.gif" width="30%">
 <p>
