@@ -19,6 +19,7 @@ html {
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
     font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
 }
 header{
     position: relative;
@@ -221,4 +222,359 @@ main{
     font-size: 12px;
     color: var(--warm-black);
     line-height: 1.5rem;
+}
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+.product-detail-batata-logo{
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    background-image: url("./assets/icons/batata.svg");
+    top: -10px;
+    left: calc(50% - 20px);;
+}
+.product-detail-title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.product-detail-title h2{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.product-detail-title p{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+/*--------------------------------------------*/
+.product-detail-card{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.clock{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/clock.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.eye{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/eye.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.money{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/dollar-sign.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/check-circle.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-card-title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+.product-card-body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.bitcoin-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url("./assets/img/bitcoinbaby2x.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.bitcoin-img-container h2{
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.main-plans-container{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.plans-title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.plans-title h2{
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+.plans-title p{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+/*--------------------------------------------------------*/
+.plans-card{
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0;
+    padding: 0 15px;
+    background: linear-gradient(to right, #d4ac95, #b86212);
+    border-radius: 15px;
+    border: 3px white solid;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.free{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    left: calc(50% - 60px);
+    top: -15px;
+    font-size: 1.2rem;
+    padding: 6px;
+    background:rgb(180, 98, 5);
+    border-radius: 8px;
+    color: white;
+}
+.plan-card-title{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: white;
+}
+.plan-card-price{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 6.3rem;
+    color: white;
+    position: relative;
+    font-family: 'DM Sans', sans-serif;
+}
+.plan-card-price span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    position: absolute;
+    left: 57px;
+    top: -2px;
+}
+.plan-card-saving {
+    font-size: 1.2rem;
+    color: white;
+}
+.plan-card-ca{
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background: linear-gradient(to right, #e0b196, #b06825);
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+.plan-card-ca span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("./assets/icons/orange-right-arrow.svg");
+    vertical-align: text-bottom;
+}
+/*--------------------------------------------------------------------*/
+.plans-card-r{
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0;
+    padding: 0 15px;
+    background: linear-gradient(to right, #c4c7c7, #8e9eab);
+    border-radius: 15px;
+    border: 3px rgb(255, 255, 255) solid;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.recomended{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    left: calc(50% - 60px);
+    top: -15px;
+    font-size: 1.2rem;
+    padding: 6px;
+    background-color: rgb(140, 140, 140);
+    border-radius: 8px;
+    border: 1px rgb(255, 255, 255) solid;
+    color: white;
+}
+.plan-card-title-r{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: white;
+}
+.plan-card-price-r{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 6.3rem;
+    color: white;
+    position: relative;
+    font-family: 'DM Sans', sans-serif;
+}
+.plan-card-price-r span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    position: absolute;
+    left: 57px;
+    top: -2px;
+}
+.plan-card-saving-r{
+    font-size: 1.2rem;
+    color: #f5f5f5;
+}
+.plan-card-ca-r{
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background: linear-gradient(to right, #c4c7c7, #8e9eab);
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: #f5f5f5;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/*--------------------------------------------------*/
+.plans-card-p{
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0;
+    padding: 0 15px;
+    background: linear-gradient(to right, #434343, #000000); 
+    border-radius: 15px;
+    border: 3px #e9d362 solid;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.premiun{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    left: calc(50% - 60px);
+    top: -15px;
+    font-size: 1.2rem;
+    padding: 6px;
+    background: linear-gradient(to right, #65654a, #e9d362); 
+    border-radius: 8px;
+    color: var(--just-white);
+}
+.plan-card-title-p{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color:  #e9d362;
+}
+.plan-card-price-p{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 6.3rem;
+    color:  #e9d362;
+    position: relative;
+    font-family: 'DM Sans', sans-serif;
+}
+.plan-card-price-p span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    position: absolute;
+    left: 50px;
+    top: -2px;
+}
+.plan-card-saving-p{
+    font-size: 1.2rem;
+    color:  #c0b270;
+}
+.plan-card-ca-p{
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background: linear-gradient(to right, #65654a, #e9d362); 
+    border: 2px solid rgb(94, 94, 32);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: rgb(94, 94, 32);
+    font-family: 'DM Sans', sans-serif;
 }
