@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/tablet.css" media="(min-width: 930px)"><!--media querrys con el tamaño minimo al que se aplica
+    tmb por buiena partica es mejor tener estos media querrys en otro archivo para que no siempre se carguen todos-->
 </head>
 <body>
     <header>
@@ -134,11 +136,17 @@
                 </article>
             </section>
         </section>
-
     </main>
     
     <footer>
-
+        <section class="left">
+            <ul>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Crunchbase</a></li>
+                <li><a href="#">Hackernews</a></li>
+            </ul>
+        </section>
+        <section class="right"><img src="./styles/assets/img/logo-footer.svg" alt="logo de Batatabit 2020"></section>
     </footer>
 </body>
 </html>

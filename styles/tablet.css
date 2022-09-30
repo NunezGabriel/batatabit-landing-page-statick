@@ -1,0 +1,11 @@
+/*breakpoints*/
+/*son pocos esto debido a la importancia del movile firts, si hubiesemos hecho esto primero en pc los breakpoints serian muchisimos*/
+.product-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+.plans-container-slider{
+    justify-content: center;
+}
